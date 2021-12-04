@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- etiquetas para tabla -->
+    <!-- por default una tabla no tiene bordes -->
+    <table border="2" bgcolor="">
+        <!-- una tabla esta compuesta por una cabecera y cuerpo -->
+        <!-- existe el table header que es la cabecera de mis tablas -->
+        <!-- es la parte estatica de una tabla porque fisicamente tiene como datos a los titulos de la cabecera -->
+
+        <thead>
+            <!-- thead es el contenedor mi cabecera -->
+            <!-- para poderfinir los elementos de mi cabecera deben estar dentro de una fila -->
+
+            <tr>
+                <!-- una fila esta compuesta por uno o varios elementos -->
+                <!-- para definir un elemento debe estar dentro de una celda -->
+                <!-- cuando es una cabecera la etiqueta del elemento es llamada th  -->
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>celular</th>
+                <th>correo</th>
+                <th>fecha de nacimiento</th>
+                </tr>
+                <tr>
+                    <th>luis</th>
+                    <th>muños</th>
+                    <th>99999999</th>
+                    <th>tecsup@gmail.com</th>
+                    <th>01/01/01</th>
+                </tr>
+        </thead>
+
+        <!-- el cuerpo de la tabla va abajo del thead -->
+        <!-- el cuerpo de la tabla es el contenedor de los datos -->
+        <tbody>
+            <!-- al igual que thead tenias filas nuestro body tambien tiene filas -->
+
+            <tr>
+                <!-- los elementos que estan dentro fila -->
+            </tr>
+        </tbody>
+    </table>
+    <h2>tablasin head y sin body</h2>
+    <table border="2">
+        <tr>
+            <td>curso</td>
+            <td>profesor</td>
+            <td>año</td>
+            <td>hora</td>
+        </tr>
+        <tr>
+            <td>html</td>
+            <td>juan</td>
+            <td>50</td>
+            <td>10:00</td>
+        </tr>
+    </table>
+
+
+
+    <!-- crear una tabla de 10 filas sobre algun tema que les guste, debe incluir imagenes -->
+   <table border="2">
+       <h2>tabla de equipos</h2>
+       <thead>
+          <tr>
+              <th>Nro</th>
+              <th>equipos</th>
+              <th>logo de equipos</th>
+          </tr>
+
+          <td>1</td>
+          <td>barcelona</td>
+          <td><img src="http://assets.stickpng.com/images/584a9b3bb080d7616d298777.png" width="100"></td>
+          
+          <tr>
+              <td>2</td>
+              <td>bayern munich</td>
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1200px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png" width="100"></td>
+          </tr>
+
+          <tr>
+              <td>3</td>
+              <td>manchester city</td>
+              <td><img src="https://logodownload.org/wp-content/uploads/2017/02/manchester-city-fc-logo-escudo-badge.png" width="100"></td>
+          </tr>
+
+          <tr>
+              <td>4</td>
+              <td>manchester united</td>
+              <td><img src="https://thumbs.dreamstime.com/z/editorial-del-logo-de-la-ciudad-manchester-ilustrado-sobre-fondo-blanco-equipos-f%C3%BAtbol-liga-premier-icono-logotipo-iconos-210280641.jpg" width="100"></td>
+          </tr>
+
+          <tr>
+              <td>5</td>
+              <td>psg</td>
+              <td><img src="http://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/49.png" width="100"></td>
+          </tr>
+
+          <tr>
+              <td>6</td>
+              <td>real madrid</td>
+              <td><img src="https://colormake.com/wp-content/uploads/2013/11/real-madrid-1024x1024.png" width="100"></td>
+          </tr>
+
+          <tr>
+              <td>7</td>
+              <td>liverpool</td>
+              <td><img src="https://logodownload.org/wp-content/uploads/2017/02/liverpool-fc-logo-escudo-2.png" width="100"></td>
+          </tr>
+
+          <tr>
+              <td>8</td>
+              <td>juventus</td>
+              <td><img src="https://eu-images.contentstack.com/v3/assets/bltcc7a7ffd2fbf71f5/blt36839a40ff5234c9/60de0b9d2446e93b5b6ca122/b10aedca4a535e5fa4551decba8474e5f75b2818.jpg?width=620&height=430" width="100"></td>
+          </tr>
+
+          <tr>
+              <td>9</td>
+              <td>arsenal</td>
+              <td><img src="https://4.bp.blogspot.com/-nDetwaRQ0o4/WVLm49xGJZI/AAAAAAABJ84/iqbDvvSbRoEANsQbda3xkvg3yvSp3BPtQCLcBGAs/s1600/Arsenal%2BFC.png" width="100"></td>
+          </tr>
+
+          <tr>
+              <td>10</td>
+              <td>newcastle</td>
+              <td><img src="https://logodownload.org/wp-content/uploads/2019/10/newcastle-united-logo-1.png" width="100"></td>
+          </tr>
+       </thead>
+   </table>
+        
+               
+
+            <!-- este concepto se basa en poder alterar la informacion de mi tabla y poder cambiar columns -->
+            <!-- table>thead>tr>th*4 -->
+            <!-- colspan: sirve para poder ocupar de uno a mas espacio segun el numero que le pasemos -->
+            <!-- colspan es para columns -->
+            <br>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>nombre</th>
+                        <th>apellido</th>
+                        <th>edad</th>
+                        <th>correo</th>
+                        <!-- este th vale 3 columnas o sea sirve para 2 datos -->
+                        <th colspan="3">foto y numero</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">juan perez</td>
+                        <td>22</td>
+                        <td>juan@gmail.com</td>
+                        <!-- estos 2 ultimos td van a ser parte de foto y numero porque tienen un colspan de 2 -->
+                        <td><img src="../../imagenes/audi.jpg.jpg" width="200"></td>
+                        <td>999</td>
+                        <td>111</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>rowspan</h2>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>curso</th>
+                        <th>nombre</th>
+                        <th>apellido</th>
+                        <th>edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">html</td>
+                        <td>juan</td>
+                        <td>perez</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>juan</td>
+                        <td>perez</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>juan</td>
+                        <td>perez</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">php</td>
+                        <td>juan</td>
+                        <td>perez</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>juan</td>
+                        <td>perez</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>juan</td>
+                        <td>perez</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">javascript</td>
+                        <td>juan</td>
+                        <td>perez</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>juan</td>
+                        <td>perez</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>juan</td>
+                        <td>perez</td>
+                        <td>30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </thead>
+    </table>
+</body>
+</html>
