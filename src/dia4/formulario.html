@@ -60,8 +60,14 @@
         <h4>radio button</h4>
         <!-- en los input para poder asignar un texto en los texto debo usar etiqueta label -->
         <!-- el for de label hace referencia al id del input -->
-        <input type="radio" name="opcion_color">rojo
-        <input type="radio" name="opcion_color">azul
+        <label for="radio_1">
+            <input id="radio_1" type="radio" name="opcion_color">rojo
+        </label>
+        <!-- label: es una etiqueta de html la cual permite poner un texto a los input -->
+        <!-- tiene el atributo for: es el id del input -->
+        <label for="radio_2">
+            <input id="radio_2" type="radio" name="opcion_color">azul
+        </label>
         <input type="radio" name="opcion_color">verde
 
         <h4>check box</h4>
