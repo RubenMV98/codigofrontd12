@@ -1,0 +1,133 @@
+/*globales*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+p{
+    font-weight: 300px;
+    height: 100px;
+    line-height: 25px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin-right: 30px;
+}
+
+/*header*/
+.header{
+    padding: 30px;
+    background: lightblue;
+    color: darkmagenta;
+    font-size: 30px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav .ul{
+    display: flex;
+    font-family: 400px;
+    font-size: 20px;
+}
+
+.header .nav .ul li{
+    margin-right: 20px;
+}
+
+/*main*/
+.main{
+    padding: 30px;
+    margin-top: 16px;
+    margin-bottom: 150px;
+}
+
+/*nosotros*/
+.nosotros h1{
+    color: darkmagenta;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.nosotros p{
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 8px;
+}
+
+.imagenes{
+    display: flex;
+
+}
+
+/*servicios*/
+.servicios h1{
+    color: darkmagenta;
+    margin-bottom: 60px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.servicios p{
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+
+.servicios div{
+    display: flex;
+}
+
+
+/*portafolio*/
+.portafolio h1{
+    color: darkmagenta;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.portafolio .foto{
+    display: flex;
+    
+}
+
+
+/*contacto*/
+.contacto h1{
+    color: darkmagenta;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.contacto p{
+    margin-bottom: 12px;
+}
+
+.img{
+    
+}
+
+.input{
+    position: absolute;
+    margin-left: 100%;
+}
+/*footer*/
+.footer{
+    background: lightblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}

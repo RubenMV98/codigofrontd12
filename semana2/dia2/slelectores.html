@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*globales*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        font-family: arial;
+    }
+
+    a{
+        color: white;
+    }
+
+    /*selector de etiqueta*/
+    header{
+        background: red;
+        padding: 20px;
+        border: 10px solid blue;
+    }
+
+    /*selector descendiente*/
+    header a{
+        color: orange;
+    }
+
+    /*selectores con clases*/
+    header .logo{
+        font-size: 30px;
+        color: white;
+    }
+
+    main a{
+        color: violet;
+    }
+
+    main .section a{
+        color: green;
+    }
+
+</style>
+<body>
+    <header>
+        <a class="logo" href="">logo</a>
+        <a href=""></a>
+        <nav>
+            <ul>
+                <li><a href="">quienes somos</a></li>
+                <li><a href="">portafolio</a></li>
+                <li><a href="">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <a href="">enlace de aside link</a>
+            <a href="">link</a>
+        </aside>
+        <section class="section">
+            <a href="">enlace de section</a>
+        </section>
+    </main>
+    <footer>
+        <a href="">footer</a>
+    </footer>
+</body>
+</html>
