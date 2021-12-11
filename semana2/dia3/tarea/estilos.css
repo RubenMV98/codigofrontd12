@@ -1,133 +1,142 @@
-/*globales*/
+/*global*/
+*{
+    box-sizing: border-box;
+}
 body{
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
 }
-
-p{
-    font-weight: 300px;
-    height: 100px;
-    line-height: 25px;
-}
-
-h2{
-    font-size: 25px;
-}
-
-img{
-    width: 100%;
-    height: 100%;
-    margin-right: 30px;
+c{
+    font-weight: bold;
 }
 
 /*header*/
 .header{
-    padding: 30px;
-    background: lightblue;
-    color: darkmagenta;
-    font-size: 30px;
-}
-
-header a{
-    text-decoration: none;
-}
-
-.header .nav{
+    background-color: #9ECEFA;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
+}
+
+.logo{
+    color: #9e017c;
+    font-size: 35px;
+}
+
+.header img{
+    width: 100px;
+}
+
+.header nav{
+    display: flex;
+}
+
+.header ul{
+    display: flex;
     align-items: center;
 }
 
-.header .nav .ul{
-    display: flex;
-    font-family: 400px;
-    font-size: 20px;
+.header li{
+    margin-left: 20px;
+    margin-bottom: 5px;
 }
 
-.header .nav .ul li{
-    margin-right: 20px;
+.header a{
+    text-decoration: none;
+    color: #9e017c;
+}
+
+.header ul li:first-child{
+    font-weight: bolder;
+    border-bottom: 2px solid #9e017c;
 }
 
 /*main*/
 .main{
     padding: 30px;
-    margin-top: 16px;
-    margin-bottom: 150px;
+}
+
+.main h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #87119A;
+}
+
+.main p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.main img{
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 /*nosotros*/
-.nosotros h1{
-    color: darkmagenta;
-    margin-bottom: 16px;
-    font-size: 20px;
-}
-
-.nosotros p{
-    font-size: 15px;
-    line-height: 25px;
-    margin-bottom: 8px;
-}
-
-.imagenes{
+.nosotros figure{
     display: flex;
+    justify-content: space-between;
+}
 
+.nosotros img{
+    width: 30%;
+    margin-left: 20px;
 }
 
 /*servicios*/
-.servicios h1{
-    color: darkmagenta;
-    margin-bottom: 60px;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 8px;
+.servicios{
+    margin-bottom: 40px;
 }
 
 .servicios p{
-    line-height: 25px;
-    margin-bottom: 12px;
+    margin-bottom: 40px;
 }
 
-.servicios div{
+.servicios figure{
     display: flex;
+    justify-content: center;
 }
 
+.servicios img{
+    width: 35%;
+    margin-left: 40px;
+}
 
 /*portafolio*/
-.portafolio h1{
-    color: darkmagenta;
-    margin-bottom: 16px;
-    font-size: 20px;
-}
-
-.portafolio .foto{
-    display: flex;
-    
-}
-
-
-/*contacto*/
-.contacto h1{
-    color: darkmagenta;
-    margin-bottom: 16px;
-    font-size: 20px;
-}
-
-.contacto p{
-    margin-bottom: 12px;
-}
-
-.img{
-    
-}
-
-.input{
-    position: absolute;
-    margin-left: 100%;
-}
-/*footer*/
-.footer{
-    background: lightblue;
-    padding: 20px;
+.portafolio figure{
     display: flex;
     justify-content: space-between;
+}
+
+.portafolio img{
+    width: 24%;
+}
+
+/*contacto*/
+.contacto-2{
+    display: flex;
+    justify-content: start;
+}
+
+.contacto-2 div{
+    padding: 40px 40px
+}
+
+.contacto-2 img{
+    width: 50%;
+    height: 50%;
+}
+
+/*footer*/
+.footer{
+    background: #9ECEFA;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer c{
+    color: #8a0183;
 }

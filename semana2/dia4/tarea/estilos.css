@@ -1,0 +1,231 @@
+/*global*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap{
+    width: 960px;
+    max-width: 960px;
+   margin: auto;
+   height: 100vh;
+}
+
+p{
+    color: white;
+}
+
+figure{
+    display: inline;
+}
+
+input, textarea{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+}
+
+.section h2, section p{
+    margin-bottom: 30px;
+}
+
+.sobre-mi, .skills, .portafolio, .clientes, .contacto{
+    padding: 50px;
+}
+
+/*container*/
+.portada-1{
+    position: relative;
+}
+
+.portada-1 h1{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 30px;
+    box-sizing: border-box;
+    top: 35px;
+    left: 360px;
+}
+
+.portada-1 h2{
+    text-align: justify;
+    position: absolute;
+    background: rgba(114, 153, 254, 0.5);;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    top: 300px;
+    left: 60px;
+    border-radius: 10px;
+}
+
+/*sobre mi*/
+.sobre-mi{
+    background: #7299FE;
+}
+
+.sobre-mi h2{
+    color: #1D06A7;
+    margin-bottom: 30px;
+}
+
+.sobre-mi p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.sobre-mi button{
+    background: #D16FFF;
+    color: white;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+/*skills*/
+.skills{
+    background: #9022FF;
+}
+
+.skills h2{
+    color: #26CC4B;
+}
+
+.skills--1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.skills--2{
+    width: 50%;
+}
+
+.skills--2 h4{
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.skills--3{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.skills--4{
+    height: 20px;
+    width: 40%;
+    background: #57EFF9;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.skills--5{
+    height: 20px;
+    width: 60%;
+    background: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*portafolio*/
+.portafolio{
+    background: #FFD233;
+}
+
+.portafolio h2{
+    color: #00AD84;
+    margin-bottom: 30px;
+}
+
+
+.portafolio--1{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}    
+
+.portafolio--1 figure{
+    width: 20%;
+}
+
+.portafolio--1 img{
+    width: 100%;
+}
+
+/*cliente*/
+.clientes{
+    background: #3F4E62;
+}
+
+.clientes h2{
+    color: #ADFF28;
+    margin-bottom:30px;
+}
+
+.clientes--1 figure{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+/*contacto*/
+.contacto{
+    background: #1687A0;
+}
+
+.contacto h2{
+    color: #FF1B1B;
+    margin-bottom: 30px;
+}
+
+.contacto--1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.input{
+    padding: 0 30px;
+    width: 400px;
+}
+
+.input input{
+    width: 100%;
+}
+
+.text-area{
+    padding: 20px;
+    width: 100%;
+}
+
+.contacto--1 textarea{
+    width: 100%;
+}
+
+.contacto--1 button{
+    background: #233451;
+    padding: 20px 30px;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+
+
